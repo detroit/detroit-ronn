@@ -1,0 +1,63 @@
+detroit-ronn(5) - generate/update project man-pages
+===================================================
+
+## DESCRIPTION
+
+The Ronn plug-in for Detroit utilizes the ronn command line tool
+to generate and update project man-pages.
+
+
+## OPTIONS
+
+The following options can be used in the Detroit assembly file
+for defining a Ronn service.
+
+  * `title`           - The title of the manual pages.
+
+  * `date`            - The publishing date of manual pages.
+
+  * `organization`    - The organization responsible for the pages.
+
+  * `folder`/`output` - The location of the .ronn files.
+
+All of these have common defaults, so most often can be left alone.
+
+
+## EXAMPLES
+
+An assembly file entry might be something like:
+
+    ronn:
+      folder: 'man'
+      title:  'MyApp'
+      org:    'ACME, Inc.'
+
+Of course, if you are using `.ruby` you have good defaults so a simple:
+
+    ronn:
+      active: true
+
+will likely do the trick.
+
+
+## RESOURCES
+
+For more information:
+
+  * [API Reference](http://rubydoc.info/gems/detroit-ronn)
+
+  * [Development Site](http://github.com/detroit/detroit-ronn)
+
+  * [Detroit Project](http://detroit.github.com)
+
+
+## COPYRIGHT
+
+Copyright (c) 2011 Thomas Sawyer, Rubyworks
+
+Detroit Ronn is distributable in accordance with the GPL v3.0 license.
+
+
+## SEE ALSO
+
+detroit(1), ronn(1)

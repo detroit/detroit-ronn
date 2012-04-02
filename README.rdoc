@@ -1,0 +1,30 @@
+= Detroit Ronn Tool
+
+{Website}[http://rubyworks.github.com/detroit-ronn] /
+{Report Issue}[http://github.com/rubyworks/detroit-ronn/issues] /
+{Repository}[http://github.com/rubyworks/detroit-ronn]
+
+
+== DESCRIPTION
+
+The Ronn tool provides man-page generatation.
+
+See http://rtomayko.github.com/ronn/ronn.1.html for more information.
+
+
+== INSTALL
+
+Per the usual gem install process:
+
+  $ gem install detroit-ronn
+
+
+== COPYRIGHT
+
+Copyright (c) 2011 Rubyworks
+
+Detroit Ronn is distributable in accordance with the GNU General Public License
+of greater (GPL-3.0+).
+
+See COPYING.rdoc and LICENSE.txt file for details.
+
