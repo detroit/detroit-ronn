@@ -9,8 +9,9 @@ copyrights:
   year: '2011'
   license: GPL-3.0+
 requirements:
-- name: ronn
 - name: detroit
+  version: 0.3.0+
+- name: ronn
 dependencies: []
 alternatives: []
 conflicts: []
